@@ -12,6 +12,10 @@ def auto_message(name, message):
           "your cursor is not currently on the page.")
     time.sleep(3)
 
+    # plus_icon = pyautogui.locateOnScreen('plusIcon.png')
+    # pyautogui.click(plus_icon)
+    # # pyautogui.typewrite(name)
+
     search_bar = pyautogui.locateOnScreen('search.png')
     pyautogui.click(search_bar)
     pyautogui.typewrite(name)
