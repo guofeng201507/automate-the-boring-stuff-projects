@@ -7,6 +7,7 @@ import re
 
 # List all files in directory and filter those that aren't txt files
 files = os.listdir(os.getcwd())
+print(os.getcwd())
 txt_files = []
 
 txt_regex = re.compile(r'.txt')
