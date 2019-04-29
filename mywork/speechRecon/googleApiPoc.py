@@ -3,6 +3,7 @@ import speech_recognition as sr
 #https://pythonspot.com/personal-assistant-jarvis-in-python/
 #https://stackoverflow.com/questions/51992375/python-package-installation-issues-pyaudio-portaudio/51992497#51992497
 # https://cloud.google.com/speech-to-text/docs/reference/libraries#client-libraries-install-python
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
 # Record Audio
 r = sr.Recognizer()
 with sr.Microphone() as source:
